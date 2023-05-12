@@ -1,0 +1,95 @@
+/* reset margin, padding */
+.skyblue {
+    border: 1px solid skyblue;
+}
+
+.pink {
+    border: 1px solid pink;
+}
+
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.banner {
+    height: 921px;
+    background: url('./banner.jpg') center center no-repeat;
+    padding: 20px;
+
+    .about-signin {
+        height: 80px;
+        width: 100%;
+        text-align: right;
+
+        .about,
+        .sign-in {
+            text-decoration: none;
+            display: inline-block;
+            text-transform: uppercase;
+        }
+
+        .sign-in {
+            padding: 12px;
+            margin-right: 80px;
+            margin-left: 50px;
+            border-radius: 10px;
+            border: 2px solid skyblue;
+        }
+    }
+
+    .logo {
+        background: url('./trysnguyen.png') center center no-repeat;
+        margin-top: 69px;
+        height: 100px;
+    }
+
+    .content-center {
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        span {
+            display: block;
+            padding-top: 10px;
+        }
+
+        .left,
+        .right,
+        .center {
+            width: 33%;
+            display: inline-block;
+            text-align: center;
+        }
+    }
+
+    .text {
+        text-align: center;
+        margin-top: 30px;
+        color: aqua;
+
+        span {
+            display: block;
+            font-size: 20px;
+            padding-top: 10px;
+        }
+
+        img {
+            height: 150px;
+            width: 150px;
+        }
+    }
+
+    .btn-start-now {
+        text-align: center;
+
+        button {
+            text-transform: uppercase;
+            padding: 14px 23px;
+            border-radius: 10px;
+            border: 2px solid skyblue;
+            margin-top: 40px;
+            cursor: pointer;
+        }
+
+    }
+}

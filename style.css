@@ -1,0 +1,18 @@
+    /* h1 {
+        color: purple
+    } */
+
+    #firstId {
+        color: yellow
+    }
+
+    .mahiru-img {
+        height: 267;
+        width: 189;
+    }
+
+    #secondId {
+        text-decoration: underline;
+        text-transform: uppercase;
+        color: skyblue;
+    }
